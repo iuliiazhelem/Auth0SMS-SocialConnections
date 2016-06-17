@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22042B981CF43D2300E713BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22042B971CF43D2200E713BA /* main.m */; };
+		22042B9B1CF43D2300E713BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22042B9A1CF43D2300E713BA /* AppDelegate.m */; };
+		22042B9E1CF43D2300E713BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22042B9D1CF43D2300E713BA /* ViewController.m */; };
+		22042BA11CF43D2300E713BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22042B9F1CF43D2300E713BA /* Main.storyboard */; };
+		22042BA31CF43D2300E713BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22042BA21CF43D2300E713BA /* Assets.xcassets */; };
+		22042BA61CF43D2300E713BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22042BA41CF43D2300E713BA /* LaunchScreen.storyboard */; };
+		226E28101CF44AE200EA85A2 /* AKAppLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 226E280F1CF44AE200EA85A2 /* AKAppLock.m */; };
+		EBBC038602C955B4B4487728 /* libPods-AKAuth0TestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D01BE6A1C3D96A236FBC1434 /* libPods-AKAuth0TestApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22042B931CF43D2200E713BA /* AKAuth0TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKAuth0TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22042B971CF43D2200E713BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22042B991CF43D2300E713BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22042B9A1CF43D2300E713BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22042B9C1CF43D2300E713BA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22042B9D1CF43D2300E713BA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22042BA01CF43D2300E713BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22042BA21CF43D2300E713BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22042BA51CF43D2300E713BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22042BA71CF43D2300E713BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		226E280E1CF44AE200EA85A2 /* AKAppLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKAppLock.h; sourceTree = "<group>"; };
+		226E280F1CF44AE200EA85A2 /* AKAppLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKAppLock.m; sourceTree = "<group>"; };
+		6FBE742AC393EE94A7B27033 /* Pods-AKAuth0TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKAuth0TestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AKAuth0TestApp/Pods-AKAuth0TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D01BE6A1C3D96A236FBC1434 /* libPods-AKAuth0TestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AKAuth0TestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0574A51DFC78905E81F55BC /* Pods-AKAuth0TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKAuth0TestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AKAuth0TestApp/Pods-AKAuth0TestApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22042B901CF43D2200E713BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBC038602C955B4B4487728 /* libPods-AKAuth0TestApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22042B8A1CF43D2200E713BA = {
+			isa = PBXGroup;
+			children = (
+				22042B951CF43D2200E713BA /* AKAuth0TestApp */,
+				22042B941CF43D2200E713BA /* Products */,
+				F31B0F7C32C220F7EB922E5C /* Pods */,
+				BC1014F9D839BCE78F54637C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22042B941CF43D2200E713BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22042B931CF43D2200E713BA /* AKAuth0TestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22042B951CF43D2200E713BA /* AKAuth0TestApp */ = {
+			isa = PBXGroup;
+			children = (
+				22042B991CF43D2300E713BA /* AppDelegate.h */,
+				22042B9A1CF43D2300E713BA /* AppDelegate.m */,
+				22042B9C1CF43D2300E713BA /* ViewController.h */,
+				22042B9D1CF43D2300E713BA /* ViewController.m */,
+				22042B9F1CF43D2300E713BA /* Main.storyboard */,
+				22042BA21CF43D2300E713BA /* Assets.xcassets */,
+				22042BA41CF43D2300E713BA /* LaunchScreen.storyboard */,
+				22042BA71CF43D2300E713BA /* Info.plist */,
+				22042B961CF43D2200E713BA /* Supporting Files */,
+				226E280E1CF44AE200EA85A2 /* AKAppLock.h */,
+				226E280F1CF44AE200EA85A2 /* AKAppLock.m */,
+			);
+			path = AKAuth0TestApp;
+			sourceTree = "<group>";
+		};
+		22042B961CF43D2200E713BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22042B971CF43D2200E713BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC1014F9D839BCE78F54637C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D01BE6A1C3D96A236FBC1434 /* libPods-AKAuth0TestApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31B0F7C32C220F7EB922E5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FBE742AC393EE94A7B27033 /* Pods-AKAuth0TestApp.debug.xcconfig */,
+				E0574A51DFC78905E81F55BC /* Pods-AKAuth0TestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22042B921CF43D2200E713BA /* AKAuth0TestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22042BAA1CF43D2300E713BA /* Build configuration list for PBXNativeTarget "AKAuth0TestApp" */;
+			buildPhases = (
+				1397A32AED7962B62B9E3E91 /* Check Pods Manifest.lock */,
+				22042B8F1CF43D2200E713BA /* Sources */,
+				22042B901CF43D2200E713BA /* Frameworks */,
+				22042B911CF43D2200E713BA /* Resources */,
+				EEB27C8DAD43D62BD86BE14C /* Embed Pods Frameworks */,
+				0B56F22044C891FECD5D6287 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AKAuth0TestApp;
+			productName = AKAuth0TestApp;
+			productReference = 22042B931CF43D2200E713BA /* AKAuth0TestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22042B8B1CF43D2200E713BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Akvelon;
+				TargetAttributes = {
+					22042B921CF43D2200E713BA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 22042B8E1CF43D2200E713BA /* Build configuration list for PBXProject "AKAuth0TestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22042B8A1CF43D2200E713BA;
+			productRefGroup = 22042B941CF43D2200E713BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22042B921CF43D2200E713BA /* AKAuth0TestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22042B911CF43D2200E713BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22042BA61CF43D2300E713BA /* LaunchScreen.storyboard in Resources */,
+				22042BA31CF43D2300E713BA /* Assets.xcassets in Resources */,
+				22042BA11CF43D2300E713BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B56F22044C891FECD5D6287 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKAuth0TestApp/Pods-AKAuth0TestApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1397A32AED7962B62B9E3E91 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB27C8DAD43D62BD86BE14C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AKAuth0TestApp/Pods-AKAuth0TestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22042B8F1CF43D2200E713BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226E28101CF44AE200EA85A2 /* AKAppLock.m in Sources */,
+				22042B9E1CF43D2300E713BA /* ViewController.m in Sources */,
+				22042B9B1CF43D2300E713BA /* AppDelegate.m in Sources */,
+				22042B981CF43D2300E713BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22042B9F1CF43D2300E713BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22042BA01CF43D2300E713BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22042BA41CF43D2300E713BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22042BA51CF43D2300E713BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22042BA81CF43D2300E713BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22042BA91CF43D2300E713BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22042BAB1CF43D2300E713BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FBE742AC393EE94A7B27033 /* Pods-AKAuth0TestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AKAuth0TestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.AKAuth0TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22042BAC1CF43D2300E713BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0574A51DFC78905E81F55BC /* Pods-AKAuth0TestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = AKAuth0TestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.AKAuth0TestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22042B8E1CF43D2200E713BA /* Build configuration list for PBXProject "AKAuth0TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22042BA81CF43D2300E713BA /* Debug */,
+				22042BA91CF43D2300E713BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22042BAA1CF43D2300E713BA /* Build configuration list for PBXNativeTarget "AKAuth0TestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22042BAB1CF43D2300E713BA /* Debug */,
+				22042BAC1CF43D2300E713BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22042B8B1CF43D2200E713BA /* Project object */;
+}

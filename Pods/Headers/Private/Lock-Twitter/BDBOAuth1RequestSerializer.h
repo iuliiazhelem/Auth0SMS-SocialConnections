@@ -1,0 +1,1 @@
+../../../Lock-Twitter/Pod/Classes/Private/BDBOAuth1RequestSerializer.h

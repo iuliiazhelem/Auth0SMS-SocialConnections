@@ -1,0 +1,1 @@
+../../../Lock-Twitter/Pod/Classes/Private/NSString+BDBOAuth1Manager.h
