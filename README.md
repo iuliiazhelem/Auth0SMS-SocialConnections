@@ -25,7 +25,8 @@ For integration of these connections you need to add the following to your `Podf
   [lock registerAuthenticators:@[twitter, facebook]];
 ```
 
-### Step 2: Authenticate with Connection name (`@"twitter"` or `@"facebook"`)
+### Step 2: Authenticate with Connection name 
+(`@"twitter"` or `@"facebook"`)
 ```Objective-C
   void(^success)(A0UserProfile *, A0Token *) = ^(A0UserProfile *profile, A0Token *token) {
     NSLog(@"User: %@", profile);
