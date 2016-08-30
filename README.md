@@ -2,7 +2,7 @@
 
 This sample exposes how to create custom UI with passwordless SMS authentication and Social connection.
 
-First of all you need to configure SMS connection as described [here](https://auth0.com/docs/connections/passwordless/sms), [Facebook connection](https://auth0.com/docs/connections/social/facebook) and [Twitter connection](https://auth0.com/docs/connections/social/twitter)
+First of all you need to configure [SMS connection](https://auth0.com/docs/connections/passwordless/sms), [Facebook connection](https://auth0.com/docs/connections/social/facebook) and [Twitter connection](https://auth0.com/docs/connections/social/twitter)
 
 For integration of these connections you need to add the following to your `Podfile`:
 ```
