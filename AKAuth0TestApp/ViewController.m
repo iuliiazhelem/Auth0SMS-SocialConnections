@@ -2,9 +2,6 @@
 //  ViewController.m
 //  AKAuth0TestApp
 //
-//  Created by Iuliia Zhelem on 24.05.16.
-//  Copyright © 2016 Akvelon. All rights reserved.
-//
 
 #import "ViewController.h"
 #import "AppDelegate.h"
@@ -42,7 +39,7 @@ static NSString *kKeychainName = @"Auth0";
 - (IBAction)clickCustomSMSButton:(id)sender {
     A0Lock *lock = [[AKAppLock sharedInstance] lock];
     if (self.emailPhoneTextField.text.length < 1) {
-        NSString *message = self.isLoginState ? @"You need to code" : @"You need to eneter phone number";
+        NSString *message = self.isLoginState ? @"You need to enter code" : @"You need to eneter phone number";
         [self showMessage:message];
         return;
     }
